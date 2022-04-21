@@ -29,8 +29,11 @@ You will need the following extension:
 
 ## Launch / Task
 
-vscode's configuration is done using json files. Create a new folder called `.vscode`. Inside it, create two files called `tasks.json` and `launch.json`.
+vscode's configuration is done using json files. The c# extension should automaticly create this for you.
 
+### Creating the config files manualy 
+
+Create a new folder called `.vscode`. Inside it, create two files called `tasks.json` and `launch.json`.
 Inside `tasks.json` add the following content. Edit the csproj's name if yours is different:
 
 ```json
